@@ -1,5 +1,5 @@
 function isIsogram() {
-  return 'isIsogram';
+  return true;
 }
 
 module.exports = isIsogram;
