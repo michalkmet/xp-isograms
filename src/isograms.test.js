@@ -7,4 +7,7 @@ describe('isIsogram', () => {
   it('should return false when given no string', () => {
     expect(isIsogram(true)).toBe(false);
   });
+  it('should return false when given aba', () => {
+    expect(isIsogram('aba')).toBe(false);
+  });
 });
