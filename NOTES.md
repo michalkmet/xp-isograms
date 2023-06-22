@@ -17,9 +17,9 @@ isIsogram "aba" = false
 
 ## Plans
 
-- ✅ TODO return true when given empty string
-- ✅ TODO return false when given no string
-- ✅ TODO return false when given 'aba'
-- ✅ TODO return true when given 'a'
-- ✅ TODO return false when given 'aa'
-- ⚠ TODO return false when given 'Aab'
+- ✅  return true when given empty string
+- ✅  return false when given no string
+- ✅  return false when given 'aba'
+- ✅  return true when given 'a'
+- ✅  return false when given 'aa'
+- ✅  return false when given 'Aab'

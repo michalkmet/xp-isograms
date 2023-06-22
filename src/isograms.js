@@ -5,8 +5,9 @@ function isIsogram(str) {
   if(str.length != 0){
     let charsInString = [];
     for (let i=0;i<str.length;i++){
-      if(!charsInString.includes(str[i])){
-        charsInString.push(str[i]);
+      let character = str[i].toLowerCase;
+      if(!charsInString.includes(character)){
+        charsInString.push(character);
       } else {
         return false;
       }
