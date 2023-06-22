@@ -1,4 +1,7 @@
-function isIsogram() {
+function isIsogram(str) {
+  if(typeof str != 'string'){
+    return false;
+  }
   return true;
 }
 
