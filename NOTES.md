@@ -23,4 +23,4 @@ isIsogram "aba" = false
 - ✅  return true when given 'a'
 - ✅  return false when given 'aa'
 - ✅  return false when given 'Aab'
-- ✅  TODO Return true when given 'Dermatoglyphics'
+- ✅  return true when given 'Dermatoglyphics'
