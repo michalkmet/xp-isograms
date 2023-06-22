@@ -19,4 +19,7 @@ describe('isIsogram', () => {
   it('should return false when given Aab', () => {
     expect(isIsogram('Aab')).toBe(false);
   });
+  it('should return true when given Dermatoglyphics', () => {
+    expect(isIsogram('Dermatoglyphics')).toBe(true);
+  });
 });
